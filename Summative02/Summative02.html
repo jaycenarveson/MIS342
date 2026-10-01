@@ -15,6 +15,14 @@ PgP 8/16/2026 MIS342 Summative02 redesign
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="../../ReadOnly/bootstrap.css" rel="stylesheet">
     <title>MIS342 Summative02</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 959px;
+        }
+        .auto-style2 {
+            width: 815px;
+        }
+    </style>
 </head>
 
 <body class="container-fluid">
@@ -172,20 +180,28 @@ PgP 8/16/2026 MIS342 Summative02 redesign
             
             <p>
                 <label for="q1"><strong>(50) Question 1</strong></label>
-                <textarea class="form-control" id="q1" name="q1" rows="4" readonly aria-readonly="true">Identify one fact repeated in LuckyTire_FlatSales.csv that is stored only once in the normalized tables. Why is that an improvement?</textarea>
+                <textarea class="auto-style1" id="q1" name="q1" rows="4" readonly aria-readonly="true">Identify one fact repeated in LuckyTire_FlatSales.csv that is stored only once in the normalized tables. Why is that an improvement?</textarea>
                 <br />
                 <label for="a1"><strong>Your answer:</strong></label>
                 <input name="a1" id="a1" size="500" maxlength="500" class="form-control"
+<<<<<<< HEAD
                     value="Avery Johnson.  A customer’s phone number is repeated in the flat file but stored once in the normalized tables, which reduces duplicates and makes updates easier." type="text"><br />
+=======
+                    value="customer information like first name is repeated often" type="text"><br />
+>>>>>>> 2ff27e5feae6a6cf4455be212acbd7758dfbb3f7
             </p>
 
             <p>
                 <label for="q2"><strong>(50) Question 2</strong></label>
-                <textarea class="form-control" id="q2" name="q2" rows="4" readonly aria-readonly="true">Why must tblSales.CustID and tblCustomer.CustID use compatible data types even though one is a foreign key and the other is a primary key?</textarea>
+                <textarea class="auto-style2" id="q2" name="q2" rows="4" readonly aria-readonly="true">Why must tblSales.CustID and tblCustomer.CustID use compatible data types even though one is a foreign key and the other is a primary key?</textarea>
                 <br />
                 <label for="a2"><strong>Your answer:</strong></label>
                 <input name="a2" id="a2" size="500" maxlength="500" class="form-control"
+<<<<<<< HEAD
                     value="They need compatible data types so Access can correctly match each sale to the right customer." type="text"><br />
+=======
+                    value="access and other rdbms require this to enforce referential integritry, which is impossible if data types are not compatible" type="text"><br />
+>>>>>>> 2ff27e5feae6a6cf4455be212acbd7758dfbb3f7
             </p>
 
             
